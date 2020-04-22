@@ -11,9 +11,12 @@
 <input type="hidden" name="email" class="sp_push_custom_data " value="user@git.com">
 <input type="hidden" name="phone" class="sp_push_custom_data " value="+380938888888">
   
-<input class="sp_push_custom_data" type="hidden" name="Name" value="Alex">
-<input class="sp_push_custom_data" type="hidden" name="email" value="email@email.com">
-<input class="sp_push_custom_data" type="hidden" name="Last_name" value="Second_name">   
+<script type="text/javascript">
+window.addEventListener('load', function() {
+    oSpP.push("Name","Имя_посетителя_сайта");
+    oSpP.push("email","Email_посетителя_сайта");
+});
+</script>
 
   
   
