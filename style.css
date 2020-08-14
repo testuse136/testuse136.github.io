@@ -1,0 +1,22 @@
+.block1 { 
+ width: 10%; 
+ background: #ccc;
+ float: left;
+ padding-top:10px;
+ padding-bottom:10px;
+ text-align: center;
+}
+.block2 { 
+ width: 10%; 
+ background: #eeee;
+ float: left;  
+ padding-top:10px;
+ padding-bottom:10px;
+ text-align: center;
+
+}
+.block3{
+  width: 70%;
+  margin: 0 auto;
+  background: #F3F3F3;
+}
